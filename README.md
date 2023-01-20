@@ -9,3 +9,4 @@
 - https://www.qt.io/qt-for-python
 - https://gist.github.com/dgobbi/bfdb149e38777f25d0891c1b883858e2
 - https://discourse.vtk.org/t/vtk-with-tkinter/6738/4
+- https://www.youtube.com/watch?v=iM3kjbbKHQU
