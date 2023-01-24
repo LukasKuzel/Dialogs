@@ -1,6 +1,5 @@
-import tkinter
 from tkinter import *
-from tkinter import ttk
+
 
 base = Tk()
 base.geometry("500x500")
@@ -14,6 +13,7 @@ def submit():
         lb_answer.config(text="Submited.")
     except ValueError:
         lb_answer.config(text="Seed and parameter must be a number.")
+
 
 lb1 = Label(base, text="Enter seed:", width=10, font=("arial", 12))
 lb1.place(x=20, y=120)
@@ -34,7 +34,7 @@ lb_answer.place(x=120, y=320)
 submit = Button(text="Submit", width=14, command=submit)
 submit.place(x=220, y=280)
 
-quit = Button(text="Quit", width=10, command=base.destroy)
-quit.place(x=230, y=450)
+quit_b = Button(text="Quit", width=10, command=base.destroy)
+quit_b.place(x=230, y=450)
 
 base.mainloop()
